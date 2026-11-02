@@ -1,0 +1,16 @@
+data/
+dataset/
+embeddings*/
+results*/
+figures*/
+logs/
+*.h5
+*.fa
+*.fai
+*.vcf
+*.vcf.gz
+*.csv.gz
+*.pt
+*.npy
+__pycache__/
+.DS_Store

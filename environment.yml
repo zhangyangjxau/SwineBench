@@ -1,0 +1,17 @@
+name: swinebench
+channels: [pytorch, nvidia, conda-forge]
+dependencies:
+  - python=3.11
+  - pytorch=2.9
+  - pytorch-cuda=12.8
+  - pip
+  - pip:
+      - transformers==4.57.3
+      - scikit-learn
+      - scipy
+      - pandas
+      - numpy
+      - h5py
+      - pyfaidx
+      - tqdm
+# DNABERT-2 needs transformers==4.29 (separate env); Evo2 needs https://github.com/ArcInstitute/evo2
